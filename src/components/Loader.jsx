@@ -150,7 +150,7 @@ export default function Loader() {
 
       <div
         ref={welcomeMessage}
-        className="absolute md:bottom-[30%] text-4xl md:text-6xl opacity-0 text-[#878282] font-black overflow-hidden w-[400px] h-[100px] gap-6 flex flex-col items-center justify-start"
+        className="absolute md:bottom-[30%] bg-[#0f0f0f] text-4xl md:text-6xl opacity-0 text-[#878282] font-black overflow-hidden w-[400px] h-[100px] gap-6 flex flex-col items-center justify-start"
       >
         <span>{messages[currentMessage]}</span>
       </div>
