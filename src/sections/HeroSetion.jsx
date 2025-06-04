@@ -66,7 +66,7 @@ const HeroSetion = () => {
             <p
               className={`md:text-base text-sm md:w-[40vw] md:leading-7 leading-6`}
             >
-              I'm a full-stack developer and freelancer with a passion for
+              I&apos;m a full-stack developer and freelancer with a passion for
               building scalable products and user-friendly web applications. I
               focus on writing clean, efficient code and delivering high-quality
               solutions that meet client needs and business goals.
@@ -124,7 +124,7 @@ const HeroSetion = () => {
             className="backdrop-blur-lg bg-[#1e1e218c] font-light rounded-lg flex-1 w-full md:w-1/2 min-h-[200px] border-[0.5px] border-neutral-700 flex flex-col items-start px-4 py-5"
           >
             <h2 className={`text-xl font-bold ${poppinsMedium.className}`}>
-              Let's Connect
+              Let&apos;s Connect
             </h2>
             <div className="flex text-sm flex-row flex-wrap items-start justify-start gap-x-2 gap-y-2 h-fit mt-4">
               {socials.map((social) => {
