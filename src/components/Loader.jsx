@@ -29,6 +29,7 @@ export default function Loader() {
       delay: 3,
       duration: 1.5,
       ease: "bounce.out",
+      backgroundColor: "#0f0f0f",
       zIndex: 999,
     });
 
