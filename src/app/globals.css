@@ -1,0 +1,54 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #121214;
+    --foreground: #ededed;
+  }
+}
+
+body::selection {
+  background: white;
+  color: #991133;
+}
+
+
+body {
+  color: var(--foreground);
+  background: var(--background);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}
+
+@layer base {
+  .nav-item {
+    @apply md:px-4 px-3 py-1.5 rounded-full text-white/70 font-extrabold uppercase text-[9px] md:text-[11px] hover:bg-white/15 transition-all hover:text-white/70 ease-in duration-300;
+  }
+}
+
+
+.hover-title:hover .cursor{
+  width: 100px;
+  background-color: pink;
+  height: 100px;
+}
+
+.card { perspective: 800px;}
+.card__content {transform-style: preserve-3d;}
+.card:hover .card__content {transform: rotateY(.5turn);}
+
+.card__front,
+.card__back { backface-visibility: hidden;}
+.card__back{ transform: rotateY(.5turn);} 
