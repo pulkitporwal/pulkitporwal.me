@@ -79,7 +79,7 @@ export default function Loader() {
   return (
     <div
       ref={loaderScreen}
-      className="z-[1000000000000000000000000000000000000000000000] fixed w-screen h-screen bg-[#0f0f0f] top-0 left-0 flex items-center justify-center"
+      className="z-[999999] fixed w-screen h-screen bg-[#0f0f0f] top-0 left-0 flex items-center justify-center"
     >
       <svg
         className="z-1 absolute md:w-[250px] md:h-[250px] w-[150px] md:bottom-[20%] left-[30%] md:left-[40%]"

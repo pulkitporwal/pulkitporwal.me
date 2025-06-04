@@ -3,7 +3,7 @@ import Link from "next/link";
 
 export const Header = () => {
   return (
-    <div className="w-full flex z-[1000000] justify-between items-start fixed top-3 px-4 md:px-10">
+    <div className="w-full flex z-[99999] justify-between items-start fixed top-3 px-4 md:px-10">
       <div>
         {/* Added responsive size classes */}
         <img src="/logo.svg" className="w-8 md:hidden" alt="Logo" />
