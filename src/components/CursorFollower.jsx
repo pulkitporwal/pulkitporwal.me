@@ -36,7 +36,7 @@ const CursorFollower = () => {
   return (
     <div
       className={`custom-cursor ${hoveredElement} z-[1000000000000000000000] `}
-      style={{ transform: translate(${position.x}px, ${position.y}px) }}
+      style={{ transform: translate(`${position.x}px`, `${position.y}px`) }}
     />
   );
 };
