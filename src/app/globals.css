@@ -3,8 +3,8 @@
 @tailwind utilities;
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  --background: #121214;
+  --foreground: #ededed;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -18,7 +18,6 @@ body::selection {
   background: white;
   color: #991133;
 }
-
 
 body {
   color: var(--foreground);
@@ -38,17 +37,26 @@ body {
   }
 }
 
-
-.hover-title:hover .cursor{
+.hover-title:hover .cursor {
   width: 100px;
   background-color: pink;
   height: 100px;
 }
 
-.card { perspective: 800px;}
-.card__content {transform-style: preserve-3d;}
-.card:hover .card__content {transform: rotateY(.5turn);}
+.card {
+  perspective: 800px;
+}
+.card__content {
+  transform-style: preserve-3d;
+}
+.card:hover .card__content {
+  transform: rotateY(0.5turn);
+}
 
 .card__front,
-.card__back { backface-visibility: hidden;}
-.card__back{ transform: rotateY(.5turn);} 
+.card__back {
+  backface-visibility: hidden;
+}
+.card__back {
+  transform: rotateY(0.5turn);
+}

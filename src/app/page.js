@@ -95,7 +95,7 @@ export default function Home() {
     <div className="relative overflow-hidden">
       <div
         ref={cursorRef}
-        className="cursor -translate-x-1/2 -translate-y-1/2 hidden md:block md:fixed top-0 lef-0 bg-white w-4 h-4 rounded-full mix-blend-difference"
+        className="cursor -translate-x-1/2 -translate-y-1/2 hidden md:block md:fixed top-0 lef-0 bg-[#dedede] w-4 h-4 rounded-full mix-blend-difference"
       ></div>
       <Loader />
       <Header />
@@ -105,6 +105,8 @@ export default function Home() {
       <VolunteeringSection />
       <BlogSection />
       <ProjectSection />
+
+      <footer className="relative text-sm z-10 flex w-full items-start justify-center overflow-hidden gap-10 pb-8 pt-2 text-neutral-400">Copyright &copy; 2025 Pulkit Porwal</footer>
     </div>
   );
 }

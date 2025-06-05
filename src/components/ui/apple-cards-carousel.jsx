@@ -122,7 +122,7 @@ export const Card = ({ card, index, layout = false }) => {
       <Link
         href={card.link}
         target="_blank"
-        className="backdrop-blur-lg dark:bg-[#1e1e218c] bg-[#1e1e218c] font-light rounded-lg border-[0.5px] border-neutral-700 flex fpx-4 py-5 z-10 h-56 w-[350px] flex-col items-start justify-start overflow-hidden bg-gray-100 "
+        className="backdrop-blur-lg bg-[#1e1e218c] font-light rounded-lg border-[0.5px] border-neutral-700 flex fpx-4 py-5 z-10 h-56 w-[350px] flex-col items-start justify-start overflow-hidden"
       >
         <div className="relative z-40 p-3 md:p-8">
           <motion.p
